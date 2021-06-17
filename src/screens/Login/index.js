@@ -51,7 +51,6 @@ const Login = () => {
       <FormWrapper>
         <InputField
           placeholder="E-mail"
-          // icon={}
           value={email}
           onChangeText={setEmail}
           placeholderTextColor={colors.gray}
@@ -61,15 +60,12 @@ const Login = () => {
           ]}
           keyboardType="email-address"
           returnKeyType="next"
-          onSubmitEditing={() => {
-            passwordInputRef.current?.focus();
-          }}
+          onSubmitEditing={() => passwordInputRef.current?.focus()}
           blurOnSubmit={false}
           autoCapitalize="none"
         />
         <InputField
           placeholder="Senha"
-          // icon={}
           value={password}
           onChangeText={setPassword}
           placeholderTextColor={colors.gray}
@@ -80,7 +76,7 @@ const Login = () => {
           textContentType="password"
           returnKeyType="send"
           onSubmitEditing={handleLogin}
-          inputRef={passwordInputRef}
+          ref={passwordInputRef}
           blurOnSubmit={false}
           autoCorrect={false}
           autoCapitalize="none"
