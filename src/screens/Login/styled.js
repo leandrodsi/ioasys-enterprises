@@ -1,20 +1,12 @@
 import { RectButton } from 'react-native-gesture-handler';
-import styled from 'styled-components';
-import { css } from 'styled-components/native';
+import styled from 'styled-components/native';
+import Text from '../../commons/components/Text';
 
 export const Logo = styled.Image``;
 
-export const Title = styled.Text`
-  font-size: ${({ textSize }) => textSize}px;
-  color: ${({ textColor }) => textColor};
-  ${({ $bold }) =>
-    $bold &&
-    css`
-      font-weight: bold;
-    `}
-`;
+export const Title = styled(Text)``;
 
-export const InputsWrapper = styled.View`
+export const FormWrapper = styled.View`
   flex: 1;
   align-items: center;
   width: 100%;
@@ -34,15 +26,11 @@ export const InputField = styled.TextInput`
 export const ButtonLogin = styled(RectButton)`
   justify-content: center;
   align-items: center;
-
+  margin-top: 32px;
   width: 100%;
   height: 60px;
   border-radius: 30px;
   background-color: ${({ theme }) => theme.colors.primary};
 `;
 
-export const ButtonLoginText = styled.Text`
-  color: ${({ theme }) => theme.colors.white};
-  font-size: ${({ theme }) => theme.typography.sizes.large}px;
-  font-weight: bold;
-`;
+export const ButtonLoginText = styled(Text)``;

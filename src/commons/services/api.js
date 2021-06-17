@@ -36,8 +36,10 @@ export const API = async ({ auth = false }) => {
   instance.interceptors.response.use(
     response => response,
     async error => {
-      await AsyncStorage.removeItem(ACCESS_HEADERS);
-      store.dispatch(clearApiHeaders());
+      if (error?.response?.status === 401) {
+        await AsyncStorage.removeItem(ACCESS_HEADERS);
+        store.dispatch(clearApiHeaders());
+      }
       return Promise.reject(error);
     },
   );

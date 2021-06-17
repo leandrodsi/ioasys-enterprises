@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="217" height="221" viewBox="0 0 217 221">
+  <defs>
+    <clipPath id="clip-path">
+      <ellipse id="Elipse_216" data-name="Elipse 216" cx="98.5" cy="102" rx="98.5" ry="102" transform="translate(1013 715)" fill="#832DD8" opacity="0.1"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_29230" data-name="Grupo 29230" transform="translate(-1012 -698)" opacity="0.8">
+    <circle id="Elipse_210" data-name="Elipse 210" cx="98.5" cy="98.5" r="98.5" transform="translate(1013 715)" fill="#832DD8" opacity="0.15"/>
+    <g id="Grupo_de_máscara_51" data-name="Grupo de máscara 51" clip-path="url(#clip-path)">
+      <rect id="Retângulo_1825" data-name="Retângulo 1825" width="145" height="179" rx="6" transform="translate(1042 796)" fill="#fcfcfc"/>
+    </g>
+    <rect id="Retângulo_1829" data-name="Retângulo 1829" width="155" height="36" rx="6" transform="translate(1045 755)" fill="#832DD8" opacity="0.3"/>
+    <rect id="Retângulo_1826" data-name="Retângulo 1826" width="155" height="36" rx="6" transform="translate(1047 753)" fill="#fcfcfc"/>
+    <circle id="Elipse_211" data-name="Elipse 211" cx="9.5" cy="9.5" r="9.5" transform="translate(1052 806)" fill="#dec9f3"/>
+    <ellipse id="Elipse_214" data-name="Elipse 214" cx="7.9" cy="8" rx="7.9" ry="8" transform="translate(1058.85 763.3)" fill="#c8a0f0"/>
+    <circle id="Elipse_212" data-name="Elipse 212" cx="9.5" cy="9.5" r="9.5" transform="translate(1052 835)" fill="#dec9f3"/>
+    <circle id="Elipse_213" data-name="Elipse 213" cx="9.5" cy="9.5" r="9.5" transform="translate(1052 864)" fill="#dec9f3"/>
+    <g id="Grupo_29225" data-name="Grupo 29225" transform="translate(-5 -8)">
+      <rect id="Retângulo_1827" data-name="Retângulo 1827" width="50" height="3" rx="1.5" transform="translate(1085 819)" fill="#dec9f3"/>
+      <rect id="Retângulo_1828" data-name="Retângulo 1828" width="75" height="3" rx="1.5" transform="translate(1085 825)" fill="#dec9f3"/>
+    </g>
+    <g id="Grupo_29228" data-name="Grupo 29228" transform="translate(1086.427 766.144)">
+      <rect id="Retângulo_1827-2" data-name="Retângulo 1827" width="52" height="3" rx="1.5" transform="translate(-0.427 -0.144)" fill="#b57bf0"/>
+      <rect id="Retângulo_1828-2" data-name="Retângulo 1828" width="78" height="3" rx="1.5" transform="translate(-0.427 5.856)" fill="#b57bf0"/>
+    </g>
+    <g id="Grupo_29226" data-name="Grupo 29226" transform="translate(-5 21)">
+      <rect id="Retângulo_1827-3" data-name="Retângulo 1827" width="50" height="3" rx="1.5" transform="translate(1085 819)" fill="#dec9f3"/>
+      <rect id="Retângulo_1828-3" data-name="Retângulo 1828" width="75" height="3" rx="1.5" transform="translate(1085 825)" fill="#dec9f3"/>
+    </g>
+    <g id="Grupo_29227" data-name="Grupo 29227" transform="translate(-5 50)">
+      <rect id="Retângulo_1827-4" data-name="Retângulo 1827" width="50" height="3" rx="1.5" transform="translate(1085 819)" fill="#dec9f3"/>
+      <rect id="Retângulo_1828-4" data-name="Retângulo 1828" width="75" height="3" rx="1.5" transform="translate(1085 825)" fill="#dec9f3"/>
+    </g>
+    <rect id="Retângulo_1830" data-name="Retângulo 1830" width="3.107" height="10" rx="1.554" transform="translate(1199.236 738.575) rotate(-9)" fill="#c8a0f0"/>
+    <g id="Grupo_29229" data-name="Grupo 29229" transform="translate(-0.403 1.41)">
+      <rect id="Retângulo_1833" data-name="Retângulo 1833" width="2" height="8" rx="1" transform="translate(1066.203 764.59)" fill="#832DD8" opacity="0.8"/>
+      <rect id="Retângulo_1834" data-name="Retângulo 1834" width="2" height="2" rx="1" transform="translate(1066.203 773)" fill="#832DD8" opacity="0.8"/>
+    </g>
+    <rect id="Retângulo_1831" data-name="Retângulo 1831" width="3.107" height="10" rx="1.554" transform="matrix(0.669, 0.743, -0.743, 0.669, 1211.72, 743.547)" fill="#c8a0f0"/>
+    <rect id="Retângulo_1832" data-name="Retângulo 1832" width="3.107" height="10" rx="1.554" transform="translate(1216.614 753.402) rotate(83)" fill="#c8a0f0"/>
+    <circle id="Elipse_217" data-name="Elipse 217" cx="6.5" cy="6.5" r="6.5" transform="translate(1199 887)" fill="#dec9f3"/>
+    <ellipse id="Elipse_219" data-name="Elipse 219" cx="5.5" cy="5" rx="5.5" ry="5" transform="translate(1013 732)" fill="#dec9f3"/>
+    <circle id="Elipse_221" data-name="Elipse 221" cx="1.5" cy="1.5" r="1.5" transform="translate(1012 750)" fill="#dec9f3"/>
+    <circle id="Elipse_218" data-name="Elipse 218" cx="3.5" cy="3.5" r="3.5" transform="translate(1222 854)" fill="#dec9f3"/>
+    <circle id="Elipse_220" data-name="Elipse 220" cx="2.5" cy="2.5" r="2.5" transform="translate(1094 698)" fill="#dec9f3"/>
+  </g>
+</svg>

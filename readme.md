@@ -2,14 +2,15 @@
 
 ## Desafio React Native - ioasys
 
-### Features
+## Features
 
-- [] Splash
-- [] Welcome
-- [] Login
-- [] Listagem de Empresas
+- [x] Splash
+- [x] Welcome
+- [x] Login
+- [x] Listagem de Empresas
+- [x] Filtro de empresas
 
-### Execução do projeto
+## Execução do projeto
 
 ```bash
 # Clone este repositório
@@ -25,7 +26,7 @@ $ yarn
 $ yarn android
 ```
 
-### Bibliotecas
+## Bibliotecas
 
 As seguintes bibliotecas foram usadas na construção do projeto:
 
@@ -56,3 +57,11 @@ As seguintes bibliotecas foram usadas na construção do projeto:
 - [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
 
   Fornece ícones prontos para serem utilizados na aplicação
+
+- [lottie-react-native lottie-ios@3.1.8](https://github.com/lottie-react-native/lottie-react-native)
+
+  Permite utilizar animações lottie (formato JSON tornando a aplicação mais leve)
+
+- [react-native-svg react-native-svg-transformer](https://github.com/kristerkari/react-native-svg-transformer)
+
+  Permite a utilização de svg personalizados, utilizando-os como um componente

@@ -1,5 +1,6 @@
 import { Dimensions } from 'react-native';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components/native';
+import Text from '../Text';
 
 const { width: ScreenWidth } = Dimensions.get('screen');
 
@@ -27,28 +28,13 @@ export const CardInfo = styled.View`
   flex: 1;
 `;
 
-export const CardText = styled.Text`
-  font-size: ${({ textSize }) => textSize}px;
-  color: ${({ textColor }) => textColor};
-  ${({ $bold }) =>
-    $bold &&
-    css`
-      font-weight: bold;
-    `}
-`;
+export const CardText = styled(Text)``;
 
-export const CardTextTitle = styled.Text`
-  font-size: ${({ theme }) => theme.typography.sizes.medium}px;
-  color: ${({ theme }) => theme.colors.gray};
-  font-weight: bold;
+export const CardTextTitle = styled(Text)`
   margin-top: 8px;
 `;
 
-export const CardTextValue = styled.Text`
-  font-size: ${({ theme }) => theme.typography.sizes.medium}px;
-  color: ${({ theme }) => theme.colors.gray};
-  font-weight: normal;
-`;
+export const CardTextValue = styled(Text)``;
 
 export const SocialIconsContainer = styled.View`
   flex-direction: row;

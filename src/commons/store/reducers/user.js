@@ -3,7 +3,7 @@ const INITIAL_STATE = {
 };
 
 export function user(state = INITIAL_STATE, action) {
-  switch (action) {
+  switch (action.type) {
     case 'SET_USER':
       return { user: action.user };
     case 'CLEAR_USER':

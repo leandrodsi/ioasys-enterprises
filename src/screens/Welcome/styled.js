@@ -1,5 +1,10 @@
 import { RectButton } from 'react-native-gesture-handler';
-import styled from 'styled-components';
+import styled from 'styled-components/native';
+import Text from '../../commons/components/Text';
+
+export const Footer = styled.View`
+  width: 100%;
+`;
 
 export const Button = styled(RectButton)`
   justify-content: center;
@@ -11,7 +16,19 @@ export const Button = styled(RectButton)`
   border-radius: 30px;
 `;
 
-export const ButtonText = styled.Text`
-  color: ${({ textColor }) => textColor};
-  font-size: ${({ textSize }) => textSize}px;
+export const ButtonText = styled(Text)``;
+
+export const RegisterWrapper = styled.View`
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 0;
 `;
+
+export const TextRegister = styled(Text)``;
+
+export const RegisterButton = styled.TouchableOpacity`
+  margin-left: 8px;
+`;
+
+export const RegisterButtonText = styled(Text)``;

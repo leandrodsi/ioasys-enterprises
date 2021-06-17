@@ -1,8 +1,8 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { ACCESS_HEADERS, USER } from '../constants/asyncStorage';
 import store from '../store';
-import { setApiHeaders } from '../store/actions/headers';
-import { setUser } from '../store/actions/user';
+import { clearApiHeaders, setApiHeaders } from '../store/actions/headers';
+import { clearUser, setUser } from '../store/actions/user';
 import { API } from './api';
 
 export const signIn = async credentials => {
@@ -28,4 +28,12 @@ export const signIn = async credentials => {
   }
 
   return result;
+};
+
+export const signOut = async () => {
+  await AsyncStorage.removeItem(USER);
+  await AsyncStorage.removeItem(ACCESS_HEADERS);
+
+  store.dispatch(clearUser());
+  store.dispatch(clearApiHeaders());
 };

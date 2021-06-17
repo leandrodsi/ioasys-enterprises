@@ -37,7 +37,7 @@ const EnterpriseCard = ({ enterprise, expand }) => {
           <CardText
             textSize={sizes.large}
             textColor={colors.primary}
-            $bold
+            bold
             ellipsizeMode="tail"
             numberOfLines={1}>
             {enterprise.enterprise_name}
@@ -98,25 +98,25 @@ const EnterpriseCard = ({ enterprise, expand }) => {
 
       {enterprise.expanded && (
         <>
-          <CardTextTitle>Description:</CardTextTitle>
+          <CardTextTitle bold>Description:</CardTextTitle>
           <CardTextValue>{enterprise.description}</CardTextValue>
-          <CardTextTitle>
+          <CardTextTitle bold>
             City: <CardTextValue>{enterprise.city}</CardTextValue>
           </CardTextTitle>
-          <CardTextTitle>
+          <CardTextTitle bold>
             Country: <CardTextValue>{enterprise.country}</CardTextValue>
           </CardTextTitle>
-          <CardTextTitle>
+          <CardTextTitle bold>
             Value:{' '}
             <CardTextValue>{formatCurrency(enterprise.value)}</CardTextValue>
           </CardTextTitle>
-          <CardTextTitle>
+          <CardTextTitle bold>
             Share price:{' '}
             <CardTextValue>
               {formatCurrency(enterprise.share_price)}
             </CardTextValue>
           </CardTextTitle>
-          <CardTextTitle>
+          <CardTextTitle bold>
             Enterprise type:{' '}
             <CardTextValue>{`${enterprise?.enterprise_type?.id} - ${enterprise?.enterprise_type?.enterprise_type_name}`}</CardTextValue>
           </CardTextTitle>

@@ -13,7 +13,7 @@ import Splash from '../screens/Splash';
 import AuthenticatedRoutes from './AuthenticatedRoutes';
 import UnauthenticatedRoutes from './UnauthenticatedRoutes';
 
-const getLocaleData = async () => {
+const getStorageData = async () => {
   const accessHeadersAsString = await AsyncStorage.getItem(ACCESS_HEADERS);
 
   if (!accessHeadersAsString) {
@@ -32,7 +32,7 @@ const Routes = ({ headers }) => {
   const [showSplash, setShowSplash] = useState(true);
 
   useEffect(() => {
-    getLocaleData();
+    getStorageData();
   }, []);
 
   const getCurrentRouter = useCallback(() => {

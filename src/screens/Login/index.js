@@ -9,8 +9,8 @@ import { useSignIn } from './hooks';
 import {
   ButtonLogin,
   ButtonLoginText,
+  FormWrapper,
   InputField,
-  InputsWrapper,
   Logo,
   Title,
 } from './styled';
@@ -30,7 +30,9 @@ const Login = () => {
     loading ? (
       <Spinner size={25} color={colors.white} />
     ) : (
-      <ButtonLoginText>Entrar</ButtonLoginText>
+      <ButtonLoginText textColor={colors.white} textSize={sizes.large} bold>
+        Entrar
+      </ButtonLoginText>
     );
 
   const handleLogin = useCallback(async () => {
@@ -38,15 +40,15 @@ const Login = () => {
   }, [login, email, password]);
 
   return (
-    <Container>
+    <Container padding={16}>
       <Logo source={LogoImage} />
       <Title textColor={colors.gray} textSize={sizes.title}>
         Olá
       </Title>
-      <Title textColor={colors.secondary} textSize={sizes.title} $bold>
+      <Title textColor={colors.primary} textSize={sizes.title} bold>
         Bem Vindo!
       </Title>
-      <InputsWrapper>
+      <FormWrapper>
         <InputField
           placeholder="E-mail"
           // icon={}
@@ -54,8 +56,8 @@ const Login = () => {
           onChangeText={setEmail}
           placeholderTextColor={colors.gray}
           rules={[
-            () => !!email || 'E-mail obrigatório',
-            () => validateEmail(email) || 'E-mail inválido',
+            () => !!email || 'Enter a valid email',
+            () => validateEmail(email) || 'Invalid email',
           ]}
           keyboardType="email-address"
           returnKeyType="next"
@@ -84,8 +86,8 @@ const Login = () => {
           autoCapitalize="none"
         />
         {error && <Error error={error} />}
-      </InputsWrapper>
-      <ButtonLogin onPress={handleLogin}>{buttonLogin()}</ButtonLogin>
+        <ButtonLogin onPress={handleLogin}>{buttonLogin()}</ButtonLogin>
+      </FormWrapper>
     </Container>
   );
 };
